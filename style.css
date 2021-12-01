@@ -95,6 +95,14 @@ PROJECT
 }
 
 
+#video{
+    width: 100%;
+    max-height: 270px;
+    background-color: black;
+}
+
+
+
 
 
 
