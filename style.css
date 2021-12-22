@@ -1,111 +1,103 @@
-/*************
+/* This is a style file for our portfolio */
 
-COMMON
-
-**************/
-
-body{
-    font-family: "monospace", sans-serif;
+body {
+  font-family: "monospace", sans-serif;
+}
+.font-primary {
+  color: #00abae;
 }
 
-.font-primary{
-    color : #00abae
+.title-icon {
+  font-size: 20px;
+  font-weight: bold;
 }
-.tittle-icon{
-    font-size: 20px;
-    font-weight: bold;
-}
-p{
-    font-size:14px;
-}
-h2{
-    font-weight: bold;
-    font-size:23px;
-    margin-block-end: 20px;
-}
-a.font-black{
-    color:#000 !important;
-}
-/************
+/* General design*/
 
-About
-
-*************/
-
-#about{
-    margin: 60px auto;
-    max-width: 400px;
-    text-align: center;
-}
-#about img{
-    border-radius: 50%;
-    width: 120px;
-    margin-bottom: 10px;
-}
-#about .nme{
-     font-size: 19px;
+p {
+  font-size: 14px;
 }
 
-#about .vocation{
-    font-size: 17px;
-    color: #A8ABAB;
-    margin-bottom: 10px;
+h2 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
-#about.skills{
-    font-size: 14px;
-    color: #00ABAE;
-    margin-bottom: 10px;
+.nav-link {
+  color: #000 !important;
+  font-weight: bold;
 }
 
-#about.email{
-    margin-top : 14px;
-    font-size: 14px;
+/* About section*/
+.About {
+  margin: 60px auto;
+  max-width: 400px;
+  text-align: center;
 }
 
-#about.icons{
-    margin-top: 20px;
-    font-size: 30px;
+.About img {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 10px;
 }
 
-#about.icon a{
-    color: #000;
+.About .name {
+  font-size: 19px;
 }
 
-/**********************
-
-PROJECT
-
-***********************/
-#project{
-    margin: 60px auto;
-    width: 80%
-
-}
-#project h2 {
-    text-align: center;
+.About .vocation {
+  font-size: 17px;
+  color: #a8a8ab;
+  margin-bottom: 10px;
 }
 
-#project .card img{
-    width: 100%;
-}
-#project .card-tittle{
-    font-weight: bold;
-
+.About .skills {
+  font-size: 14px;
+  color: #00aeae;
+  margin-bottom: 10px;
 }
 
-
-#video{
-    width: 100%;
-    max-height: 270px;
-    background-color: black;
+.About .email {
+  margin-top: 1px;
+  font-size: 14px;
 }
 
+.About .icons {
+  margin-top: 20px;
+  font-size: 30px;
+}
 
+.About .icons a {
+  color: #000000;
+}
 
+/* Project */
+.project {
+  margin: 60px auto;
+  width: 80%;
+  text-align: justify;
+}
 
+.project .card img {
+  width: 100%;
+}
 
+.project .card-title {
+  font-weight: bold;
+  text-align: justify;
+}
 
+.project .card-text {
+  text-align: justify;
+}
 
+#button {
+  text-align: justify;
+  margin: auto;
+}
 
-
+video {
+  width: 100%;
+  max-height: 322px;
+  background-color: black;
+}

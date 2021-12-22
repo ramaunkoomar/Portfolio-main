@@ -1,132 +1,125 @@
-<!doctype html>
-<html langu"en"></html>
-
+ <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="icon" type="image/png" href="img/techis-logo.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
         <div class="container">
-            <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
+            <a class="navbar-brand title-icon" href="https://portfolio-saber.herokuapp.com/"><span class="font-primary">P</span>ortfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <div class="collapse navbar-collapse" id="navbarToggler">
+          </button> 
+          <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ms-auto mb-2">
               <li class="nav-item">
-                <a class="nav-link font black" href="#about">About</a>
-                <a class="nav-link font black" href="#project">Projects</a>
+                <a class="nav-link" font-black  href="#about">About</a>
               </li>
-            </ul>
+              <li class="nav-item">
+                <a class="nav-link" font-black  href="#project">Projects</a>
+              </li>
+            </ul>   
           </div>
         </div>
       </nav>
 
+      <div class="About" id="about">
+          <h2><span class="font-primary">A</span>bout</span></h2>
+          <img src="img/ramaun.JPG">
+          <div class="name">Ramaun koomar</div>
+          <div class="vocation">Web Application Developer</div>
+          <div class="skills">HTML / CSS / Python / Javascript / React.js / Redux / Django / Express.js</div>
+          <p>
+            I am a Web Application Developer. I am proficient to assist with all above qualifications needs. My objective is to empower people through long-lasting solution designs.
+          </p>
+          <div class="email">Ramaunkoomar@gmail.com
+          </div> 
+          <div class="icons">
+            <a href="https://github.com/ramaunkoomar"><i class="bi bi-github"></i></a>
+            <a href="#"><i class="bi bi-linkedin ms-3"></i></a> 
+          </div>         
+      </div>
+      <div class="project" id="project">
+        <h2 style="text-align: center;"><span class="font-primary">P</span>rojects</h2>
+
+        <div class="card mb-3">
+          <div class="row">
+            <div class="col-md-4">
+              <video id="video" autoplay muted controls>
+                <source src="video/Hiveweartech.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Hive Wear Tech: Online clothing shopping website</h5>
+                <p class="card-text"><Strong>Project Description:</Strong>A convenient and fun way to browse featured clothing & accessories from some of the best clothing brands online, especially aimed at teenagers. With this web app, you can browse products by any color you like or by trending colors, save products into favorites, and share products with friends on social media.  </p>
+                <p class="card-text"><Strong>Skills Used:</Strong> Frontend built in React and Redux, Backend built in Django API</p>
+
+                <p class="card-text">
+                  <strong>Login ID:</strong><br>Email : test@test.com<br>
+                  password : 1234</p>
+                  <a href="https://front-end-hivetech.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
+                  <a href="https://github.com/hivetechproject/HiveTechproject" target="_blank" class="btn btn-secondary">Github Link</a>
+              
+                </div>
+                </div>
+                </div>
+              </div>
+
+
+        <div class="card mb-3">
+          <div class="row">
+            <div class="col-md-4">
+              <video id="video" autoplay muted controls>
+                <source src="video/Project-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Joy Background</h5>
+                <p class="card-text"><Strong>Project Description:</Strong>This project contains an extensive collection of images exclusively used by children for zoom meeting backgrounds. This application enables a preview where you can check how it looks. Users can filter images by tags, names, keywords, and get search results according to the letters typed.  (due to covid, zoom usage grew exponentially, and appropriate backgrounds were required. This background can be created in one minute)</p>
+                <p class="card-text"><Strong>Skills Used:</Strong> Frontend built in React and Redux, Backend built in Django API</p>
+                  <a href="https://joybackground-frontend.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
+                  <a href="https://github.com/ramaunkoomar/Joy-Background.git" target="_blank" class="btn btn-secondary">Github Link</a>
+              
+                </div>
+                </div>
+                </div>
+              </div>
+        
+        
       
-      <div id="about">
-         <h2><span class="font-primary">A</span>bout</h2>
-         <img src="img/ramaun.JPG">
-         <div class="name">Ramaun koomar</div>
-         <div class="vocation">Wed application Develover</div>
-         <div class="skills">HTML / CSS /javaScript / React.js / Python / Redux / Django / Express.js / Aws(Basis) / Docker (Basics)</div>
-         <p>
-             An SPA That displays subreddit data from Reddit for a spcified time period. As the front-end dev.
-        </p>
-        <div class="email">Ramaunkoomar@gmail.com</div>
-        <div class="icons">
-          <a href="#"><i class="bi bi-github"></i></a>
-          <a href="#"><i class="bi bi-linkedin" ms-6></i></a>
+
+        <div class="card mb-3">
+          <div class="row">
+            <div class="col-md-4">
+             <video id="video" autoplay muted controls>
+                <source src="video/Twitter.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Twitter Clone</h5>
+                <p class="card-text">
+                  <strong>Project Description:</strong>This is the app where you can share your thoughts using tweets.</br> 
+                  <strong>Skills Used:</strong>Html/ CSS/Bootstrap/Javascript/Django/Cloudinary/Heroku</p>
+                <a href="https://twittercloneramaun.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
+                <a href="https://github.com/ramaunkoomar/Tweet" target="_blank" class="btn btn-secondary">Github Link</a>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div id="project">
-           <h2><span class="font-primary">P</span>roject</h2>
-        
-  
-           <div class="card mb-3">
-            <div class="row">
-              <div class="col-md-4">
-                <video id="video" autoplay muted controls>
-                  <source src="video/Project-video.mp4" type="video/mp4">
-                                </video>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Joy Background</h5>
-                  <p class="card-text"><strong>Project Description</strong> This is website used to check different Background </p>
-                  <p class="card-text"><strong>Skills used</strong>Frontend built in React and Redux, Backend built in Django API </p>
-                  <p class="card-text"><small class="text-muted">
-                
-                  <a href="https://joybackground-frontend.herokuapp.com/" target="_blank" class="btn btn-secondry">Website link</a>
-                  <a href="https://github.com/ramaunkoomar/Joy-Background.git" target="_blank" class="btn btn-secondry">Github Link</a>
-                
-                  </p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
-           
-           <div class="card mb-3">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="img/project-twitter.png" alt="Too Project">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Twitter clone</h5>
-                  <p class="card-text">This is a this is twitter project.</p>
-                  <p class="card-text"><small class="text-muted"> 
-                  
-                  </small></p>
-                  <a href="https://twittercloneramaun.herokuapp.com/" target="_blank" class="btn btn-secondry">Website link</a>
-                  <a href="https://github.com/ramaunkoomar/twitter" target="_blank" class="btn btn-secondry">Github Link</a>
-                  
-
-
-                  </p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card mb-3">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="img/project-twitter.png" alt="Twitter Project">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Netflix clone</h5>
-                  <p class="card-text">This is a this is Netflix project using HTML / CSS / JS.</p>
-                  <p class="card-text"><small class="text-muted"> 
-                   Test Login Account <br>
-                  
-                  </small></p>
-                  <a href="#" target="_blank" class="btn btn-secondry">Website link</a>
-                  <a href="#" target="_blank" class="btn btn-secondry">Github Link</a>
-                  
-
-
-                  </p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          </div>
-
-             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
-
 </html>
